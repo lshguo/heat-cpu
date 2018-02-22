@@ -2,6 +2,6 @@ FROM        debian:stretch-slim
 MAINTAINER  GuoLiangShuai
 
 
-COPY heatcpu  /bin/heatcpu
+COPY heat-cpu  /bin/heatcpu
 
 ENTRYPOINT [ "/bin/heatcpu" ]
